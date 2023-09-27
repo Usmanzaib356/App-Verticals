@@ -1,0 +1,1065 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoj";
+}
+
+
+/* header css start */
+.header {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.nav-container {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    box-shadow: 0px 4px 30px 1px rgba(202, 202, 202, 10);
+}
+
+.nav-logo {
+    margin-left: 1rem;
+}
+
+.image {
+    max-width: 200px;
+    height: auto;
+}
+
+.nav-items {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    letter-spacing: .13em;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav-link {
+    text-decoration: none;
+    font-size: 14px;
+    color: #303331;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+    height: 100%;
+    padding: 1rem 0;
+    align-items: center;
+    transition: color 400ms;
+}
+
+.nav-link:hover {
+    color: #ec1c24;
+}
+
+.active {
+    color: #ec1c24;
+}
+
+.service-dropdown {
+    position: absolute;
+    top: 3.1rem;
+    background-color: #ffffff;
+    border-bottom: 4px solid #ec1c24;
+    padding: 2rem 1rem;
+}
+
+
+
+.service-dropdown-ul {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+}
+
+.service-dropdown-link {
+    font-size: 14px;
+    text-decoration: none;
+    color: #303331;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.service-dropdown-link:hover {
+    color: #ec1c24;
+}
+
+
+.solution-dropdown {
+    position: absolute;
+    width: 100%;
+    top: 3rem;
+    left: 0;
+    right: 0;
+    padding: 3rem 0;
+    background-color: #ffffff;
+    border-bottom: 4px solid #ec1c24;
+}
+
+
+.solution-dropdown-items {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: center;
+    padding: 0 2rem;
+    align-items: center;
+}
+
+.solution-dropdown-link-container {
+    width: 70%;
+    padding: 0 1rem;
+}
+
+.solution-dropdown-link-card {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1.5rem;
+    border-left: 1px solid #a6aca8;
+    padding: 0 1rem;
+}
+
+.solution-dropdown-cards-main {
+    display: flex;
+    width: 100%;
+}
+
+.solution-dropdown-card-cantainer {
+    width: 100%;
+}
+
+.solution-dropdown-heading {
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 0;
+    padding-left: 2rem;
+}
+
+.solution-dropdown-link {
+    font-size: 14px;
+    text-decoration: none;
+    color: #303331;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.solution-dropdown-link:hover {
+    color: #ec1c24;
+}
+
+.technologies-dropdown {
+    position: absolute;
+    width: 100%;
+    top: 3rem;
+    left: 0;
+    right: 0;
+    padding: 3rem 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    border-bottom: 4px solid #ec1c24;
+}
+
+.mt-2 {
+    margin-top: 1rem;
+}
+
+.location {
+    position: relative;
+}
+
+.location-dropdown {
+
+    position: absolute;
+    top: 3rem;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-bottom: 4px solid #ec1c24;
+    padding: 1.5rem 1rem;
+    box-sizing: border-box;
+
+}
+
+.insights {
+    position: relative;
+}
+
+
+.nav-btn {
+    background-color: #ec1c24;
+    height: 100%;
+    align-items: center;
+    padding: 0px 2rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    flex-direction: row-reverse;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+.nav-btn:hover {
+    background-color: black;
+}
+
+.nav-btn-Link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.14em;
+}
+
+.mob-items-sidebar {
+    width: 360px;
+    height: calc(100vh - 50px);
+    overflow-y: overlay;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 3;
+    top: 3.5rem;
+}
+
+
+
+
+.mob-items-sidebar::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 50px;
+}
+
+.mob-items-sidebar::-webkit-scrollbar-thumb {
+    background-color: #ec1c24;
+    border-radius: 50px;
+}
+
+::selection {
+    background-color: #ec1c24;
+    color: #fff;
+
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ec1c24;
+    border-radius: 50px;
+}
+
+/* header css End */
+
+
+/* Hero css Start  */
+
+
+
+.hero-container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.hero-video-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    background: linear-gradient(hsla(0, 0%, 100%, .03), #fdfcfc);
+    opacity: .7;
+
+}
+
+.hero-text-container {
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text-card {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+.Perfect-Blend {
+    font-size: 30px;
+    font-weight: 600;
+    color: #ec1c24;
+}
+
+.App-Development-text {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+}
+
+.hero-btns {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.HAVE-AN-btn {
+    padding: 1rem 2rem;
+    background-color: #ec1c24;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 300px;
+    transition: background-color 1s;
+}
+
+.HAVE-AN-btn:hover {
+    background-color: black;
+    border: 1px solid #ec1c24;
+}
+
+.get-a-qoute {
+    background-color: black;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 300px;
+    transition: background-color 1s;
+    overflow: hidden;
+}
+
+.get-a-qoute:hover {
+    background-color: #ec1c24;
+    border: 1px solid black;
+}
+
+.hero-images-container {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+    width: 100%;
+    height: 20vh;
+    box-shadow: 5px -2px 80px 80px #ffffff;
+    opacity: 1;
+    z-index: -1;
+
+}
+
+.hero-images-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    width: 70%;
+
+}
+
+
+.hero-img {
+    width: 100%;
+    height: auto;
+}
+
+/* Hero css End */
+
+/* CardCarousel css start */
+.cards-container {
+    height: 100%;
+    margin-top: 5rem;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 0 40px;
+    background-color: #ffffff;
+}
+
+.cards-text {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.One-Stop {
+    font-size: 30px;
+    font-weight: 700;
+    color: #ec1c24;
+}
+
+.Development-Process {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ec1c24;
+}
+
+.What-Custom {
+    font-size: 26px;
+    font-weight: 700;
+    color: #ec1c24;
+}
+
+.Our {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 0.5rem;
+}
+
+.Our-Proficient {
+    font-size: 35px;
+    font-weight: 600;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.text-border {
+    border-bottom: 3px solid #ec1c24;
+    width: 65px;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    max-width: 1300px;
+    flex-wrap: wrap;
+    padding: 0 0.8rem;
+}
+
+
+
+.carousel-card-container {
+    width: 250px;
+    height: 350px;
+}
+
+
+.carousel-card {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 500ms;
+    transform-style: preserve-3d;
+}
+
+.carousel-card-container:hover>.carousel-card {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+
+.front-card,
+.back-card {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .161);
+    border-radius: 10px;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+
+.front-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+.carousel-card-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.front-card-items {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 20px;
+}
+
+.front-card-heading {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.front-card-p-con {
+    max-height: 100px;
+    overflow-y: auto;
+    overflow-x: none;
+    scroll-behavior: smooth;
+    height: 90px;
+}
+
+
+.front-card-p-con::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 10px;
+    background-color: #fdfcfc;
+
+}
+
+.front-card-p-con::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 50px;
+}
+
+
+.front-card-p {
+    font-size: 14px;
+    font-weight: 300;
+    list-style: 22px;
+}
+
+.back-card {
+    width: 100%;
+    height: 100%;
+    background-color: #ec1c24;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back-card-items {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 20px;
+}
+
+.back-card-p {
+    font-size: 14px;
+    font-weight: 300;
+    list-style: 22px;
+    color: #fff;
+}
+
+.lern-more {
+    background-color: #fdfcfc;
+    padding: 0.8rem 3rem;
+    border-radius: 10px;
+    border: 1px solid #ec1c24;
+    color: #ec1c24;
+    font-weight: 700;
+    transition: background-color border 500ms;
+}
+
+
+.lern-more:hover {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #ffffff;
+}
+
+/* CardCarousel css End */
+
+
+/* Usa css start */
+.usa-container {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.usa-text-card {
+    width: 80%;
+}
+
+.usa-card-bottom-sec {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 1366px;
+}
+
+.With-people-p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.We-are-one {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.READ-MORE {
+    width: 20%;
+    padding: 1rem 0;
+    border-radius: 10px;
+    background-color: #ec1c24;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid #ec1c24;
+    transition: background-color 500ms;
+}
+
+.READ-MORE:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Usa css start */
+
+
+/* case css start */
+
+.caseStudie-container {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem 0;
+
+}
+
+.carousel-image-container {
+    width: 100%;
+    position: relative;
+    background-size: 100%;
+
+}
+
+
+.carousel-image {
+    width: 100%;
+    height: 100vh;
+}
+
+.carousel-text-con {
+    width: 100%;
+    position: absolute;
+    color: #fff;
+    z-index: 1;
+    left: 0;
+    top: 10%;
+    right: 0;
+    bottom: 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.carousel-text-con-child {
+    width: 90%;
+}
+
+.carousel-text-card {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    gap: 2.5rem;
+}
+
+.carousel-text-box {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.bitox-img {
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+}
+
+.Bitbox {
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px;
+}
+
+/* case css End */
+
+/* process css start  */
+
+.procces-container {
+    width: 100%;
+    background: transparent linear-gradient(179deg, #fef1f1, rgba(222, 252, 251, .32) 51%, hsla(0, 60%, 99%, .008) 96%, hsla(0, 100%, 99%, 0));
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.procces-text-con {
+    width: 85%;
+    max-width: 1300px;
+    padding: 0 1rem;
+}
+
+.process-content-con {
+    position: relative;
+    margin-top: 4rem;
+    display: flex;
+}
+
+.process-image {
+    background: url("https://www.appverticals.com/_next/static/media/curved.d4994d33.webp")no-repeat;
+    width: 100%;
+    height: 803px;
+}
+
+.process-content {
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    gap: 3rem;
+    width: 90%;
+    padding-left: 7rem;
+
+}
+
+.process-card {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.process-card-2 {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 8rem;
+}
+
+.process-card-3 {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 11rem;
+}
+
+.process-card-5 {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 6rem;
+}
+
+.process-card-6 {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.process-card-img {
+    width: 130px;
+    height: 93px;
+    align-items: center;
+    background-color: #ec1c24;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+.process-card-img-2 {
+    width: 140px;
+    height: 93px;
+    align-items: center;
+    background-color: #ec1c24;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.process-card-img-3 {
+    width: 150px;
+    height: 93px;
+    align-items: center;
+    background-color: #ec1c24;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+.process-card-img-5 {
+    width: 140px;
+    height: 93px;
+    align-items: center;
+    background-color: #ec1c24;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.process-card-img-6 {
+    width: 130px;
+    height: 93px;
+    align-items: center;
+    background-color: #ec1c24;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.process-card-t {
+    text-align: left;
+}
+
+.we-build {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ec1c24;
+    padding-bottom: 10px;
+}
+
+.we-build-p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 85%;
+}
+
+.process-second-img img {
+    position: absolute;
+    left: 40px;
+    right: 0;
+    bottom: 0;
+    top: 40%;
+    align-items: start;
+    height: 250px;
+    width: 270px;
+}
+
+/* process css End  */
+
+
+/* About css Start  */
+
+.about-container {
+    background: url('https://www.appverticals.com/_next/static/media/cta-bg.3cc5f30c.webp') no-repeat;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.about-content {
+    width: 60%;
+    max-width: 1024px;
+    padding: 0 1rem;
+    color: white;
+}
+
+.Tell-Us {
+    font-size: 40px;
+    color: #ec1c24;
+    font-weight: 700;
+}
+
+.Request-a-quote {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #fff;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.about-btns {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.call-us-btn {
+    width: 320px;
+    height: 50px;
+    text-align: center;
+    background-color: #fff;
+    color: #ec1c24;
+    border-radius: 12px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px solid #fff;
+    transition: background-color 500ms, border 500ms;
+}
+
+.call-us-btn:hover {
+    background-color: #000;
+    border: 1px solid #fff;
+}
+
+.chat-btn {
+    width: 320px;
+    height: 50px;
+    text-align: center;
+    background-color: #ec1c24;
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;
+    border: 1px solid #ec1c24;
+    font-size: 17px;
+    font-weight: 600;
+    transition: background-color 500ms, color 500ms, border 500ms;
+}
+
+.chat-btn:hover {
+    background-color: #000;
+    color: #ec1c24;
+    border: 1px solid #ec1c24;
+}
+
+/* About css End  */
+
+
+/* Industries css start  */
+
+.industry-sec {
+    background: transparent linear-gradient(179deg, #fef1f1, rgba(222, 252, 251, .32) 51%, hsla(0, 60%, 99%, .008) 96%, hsla(0, 100%, 99%, 0));
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    padding: 5rem 0;
+}
+
+.industry-content {
+    width: 90%;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+
+.industry-img-con{
+    width: 50%;
+}
+
+.industry-cards-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    gap: 1.5rem;
+}
+
+
+.industry-img {
+    height: 550px;
+    width:100%;
+}
+
+.industry-card {
+    display: flex;
+    align-items: start;
+    text-align: start;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.industry-card-img-new {
+    width: 100px;
+    height: 90px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .161);
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    transition: background-color 500ms ;
+}
+
+.industry-card-img-new:hover {
+    background-color: #ec1c24;
+}
+
+
+.industry-card-img-new img {
+    height: 50px;
+}
+
+.industry-card-img-new img:hover {
+    filter: grayscale(1) invert(1);
+}
+
+
+/* Industries css End  */

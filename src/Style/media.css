@@ -1,0 +1,1551 @@
+@media screen and (max-width : 1024px) {
+    .nav-link {
+        font-size: 10px;
+    }
+
+    .image {
+        max-width: 150px;
+        height: auto;
+    }
+
+    .nav-btn-Link {
+        font-size: 12px;
+        letter-spacing: 0.1em;
+    }
+
+    /* Hero css start */
+
+    .hero-text-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .Perfect-Blend {
+        font-size: 30px;
+        font-weight: 600;
+        color: #ec1c24;
+    }
+
+    .App-Development-text {
+        font-size: 40px;
+        line-height: 60px;
+        font-weight: 700;
+    }
+
+
+    .HAVE-AN-btn {
+        background-color: #ec1c24;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        width: 30%;
+        transition: background-color 1s;
+    }
+
+
+
+    /* Hero css End */
+
+}
+
+
+@media screen and (min-width: 1025px) and (max-width : 1199px) {
+    .nav-link {
+        font-size: 10px;
+    }
+
+    .image {
+        max-width: 150px;
+        height: auto;
+    }
+
+    /* Hero css start */
+    .App-Development-text {
+        font-size: 58px;
+        line-height: 65px;
+    }
+
+    .Perfect-Blend {
+        font-size: 35px;
+        font-weight: 600;
+        color: #ec1c24;
+    }
+
+    /* Hero css End */
+
+}
+
+@media screen and (min-width: 1200px) and (max-width : 1350px) {
+    .nav-link {
+        font-size: 12px;
+    }
+
+    .image {
+        max-width: 180px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1351px) and (max-width : 1444px) {
+    .nav-link {
+        font-size: 14px;
+
+    }
+
+    .image {
+        max-width: 200px;
+        height: auto;
+    }
+
+    /* Hero css start */
+    .App-Development-text {
+        font-size: 60px;
+        line-height: 70px;
+        font-weight: 700;
+    }
+
+    /* Hero css End */
+
+}
+
+
+@media screen and (min-width : 1024px) {
+    .process-for-small-con {
+        display: none;
+    }
+}
+
+
+/* For small large size laptop */
+@media screen and (min-width : 1301px) and (max-width : 1600px) {
+    /* .process-for-small-con{
+        display: none;
+    } */
+}
+
+/* For small size laptop */
+@media screen and (min-width : 1025px) and (max-width : 1300px) {
+    /* .process-for-small-con{
+        display: block;
+    } */
+    /* cardcarousel css start */
+
+    .One-Stop {
+        font-size: 28px;
+        font-weight: 700;
+        color: #ec1c24;
+    }
+
+    .Development-Process {
+        font-size: 26px;
+        font-weight: 700;
+        color: #ec1c24;
+    }
+
+    .What-Custom {
+        font-size: 24px;
+        font-weight: 700;
+        color: #ec1c24;
+    }
+
+    .Our {
+        font-size: 30px;
+        font-weight: 700;
+        color: #000;
+    }
+
+    .Our-Proficient {
+        font-size: 25px;
+        font-weight: 600;
+        color: #000;
+        padding-bottom: 20px;
+    }
+
+    .front-card-heading {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 700;
+        padding-right: 1rem;
+    }
+
+    .carousel-card-container {
+        width: 300px;
+        height: 350px;
+    }
+
+    /* cardcarousel css end */
+
+
+    /* Usa css start */
+    .With-people-p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .We-are-one {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .READ-MORE {
+        width: 30%;
+        padding: 1rem 0;
+        border-radius: 10px;
+        background-color: #ec1c24;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+        border: 1px solid #ec1c24;
+        transition: background-color 500ms;
+    }
+
+    /* Usa css end */
+
+    /* Case study css start */
+
+    .carousel-text-card {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        text-align: left;
+        gap: 2.5rem;
+    }
+
+    .bitox-img {
+        max-width: 100%;
+        width: 60%;
+        height: auto;
+    }
+
+    /* Case study css End */
+
+    /* Process css start */
+
+
+    .procces-text-con {
+        width: 100%;
+        max-width: 1300px;
+        padding-left: 20px;
+    }
+
+    .process-content-con {
+        position: relative;
+        margin-top: 4rem;
+        display: flex;
+    }
+
+    .process-image {
+        background: url("https://www.appverticals.com/_next/static/media/curved.d4994d33.webp")no-repeat;
+        width: 100%;
+        height: 803px;
+    }
+
+    .process-content {
+        display: flex;
+        text-align: right;
+        flex-direction: column;
+        gap: 3rem;
+        width: 90%;
+        padding-left: 7rem;
+
+    }
+
+    .process-card {
+        display: flex;
+        align-items: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .process-card-2 {
+        display: flex;
+        align-items: center;
+        align-items: center;
+        gap: 1rem;
+        padding-left: 8rem;
+    }
+
+    .process-card-3 {
+        display: flex;
+        align-items: center;
+        align-items: center;
+        gap: 1rem;
+        padding-left: 11rem;
+    }
+
+    .process-card-5 {
+        display: flex;
+        align-items: center;
+        align-items: center;
+        gap: 1rem;
+        padding-left: 6rem;
+    }
+
+    .process-card-6 {
+        display: flex;
+        align-items: center;
+        align-items: center;
+        gap: 1rem;
+
+    }
+
+    .process-card-img {
+        width: 120px;
+        height: 90px;
+        padding: 10px 10px;
+        align-items: center;
+        background-color: #ec1c24;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .process-card-img-2 {
+        width: 140px;
+        height: 93px;
+        align-items: center;
+        background-color: #ec1c24;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .process-card-img-3 {
+        width: 150px;
+        height: 93px;
+        align-items: center;
+        background-color: #ec1c24;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .process-card-img-5 {
+        width: 140px;
+        height: 93px;
+        align-items: center;
+        background-color: #ec1c24;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .process-card-img-6 {
+        width: 130px;
+        height: 93px;
+        align-items: center;
+        background-color: #ec1c24;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .process-card-t {
+        text-align: left;
+    }
+
+    .we-build {
+        font-size: 20px;
+        font-weight: 700;
+        color: #ec1c24;
+        padding-bottom: 10px;
+    }
+
+    .we-build-p {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 24px;
+        width: 85%;
+    }
+
+    .process-second-img img {
+        position: absolute;
+        left: 40px;
+        right: 0;
+        bottom: 0;
+        top: 40%;
+        align-items: start;
+        height: 230px;
+        width: 250px;
+    }
+
+    /* process css End  */
+
+}
+
+/* For ipad pro */
+@media screen and (min-width : 769px) and (max-width : 1024px) {
+
+    /* Hero css Start */
+
+    .HAVE-AN-btn {
+        padding: 1rem 2rem;
+        background-color: #ec1c24;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        width: 32%;
+        transition: background-color 1s;
+    }
+
+    .get-a-qoute {
+        background-color: black;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        width: 30%;
+        transition: background-color 1s;
+        overflow: hidden;
+    }
+
+
+
+    /* Hero css End */
+
+    /* cardcarousel css start */
+
+    .One-Stop {
+        font-size: 25px;
+        font-weight: 700;
+        color: #ec1c24;
+    }
+
+    .Development-Process {
+        font-size: 23px;
+        font-weight: 700;
+        color: #ec1c24;
+    }
+
+    .Our {
+        font-size: 30px;
+        font-weight: 600;
+        color: #000;
+    }
+
+    .Our-Proficient {
+        font-size: 25px;
+        font-weight: 600;
+        color: #000;
+        padding-bottom: 20px;
+    }
+
+    .front-card-heading {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 700;
+        padding-right: 1rem;
+    }
+
+    .carousel-card-container {
+        width: 300px;
+        height: 350px;
+    }
+
+
+    .front-card-heading {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 700;
+        padding-right: 1rem;
+    }
+
+    .carousel-card-container {
+        width: 350px;
+        height: 320px;
+    }
+
+    .front-card-heading {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 700;
+        padding-right: 3rem;
+    }
+
+
+    /* cardcarousel css end */
+
+    /* usa css start */
+    .With-people-p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .READ-MORE {
+        width: 30%;
+        padding: 1rem 0;
+        border-radius: 10px;
+        background-color: #ec1c24;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+        border: 1px solid #ec1c24;
+        transition: background-color 500ms;
+    }
+
+
+    /* usa css end */
+
+    /* Case study css Start */
+    .carousel-text-card {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        text-align: left;
+        gap: 2.5rem;
+    }
+
+    .bitox-img {
+        max-width: 100%;
+        width: 65%;
+        height: auto;
+    }
+
+    .Bitbox {
+        font-size: 16px;
+        color: #fff;
+        line-height: 25px;
+    }
+
+    /* Case study css End */
+
+    /* Procss  css start */
+
+    .procces-text-con {
+        display: none;
+    }
+
+    .process-for-small-con {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0 5rem;
+    }
+
+
+    .process-for-small-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .process-second-small-img img {
+        width: 260px;
+        height: 230px;
+    }
+
+
+    .process-card-small-img {
+        padding: 20px 22px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 45px;
+        background-color: #ec1c24;
+        border-radius: 50%;
+        margin-bottom: 10px;
+
+    }
+
+    .process-small-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .process-small-card-con {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .process-small-card {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 50%;
+    }
+
+    .we-build-small-p {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 24px;
+        padding-top: 5px;
+
+
+    }
+
+    /* Procss  css End */
+
+
+    /* About css Start  */
+
+    .about-container {
+        background: url('https://www.appverticals.com/_next/static/media/cta-bg.3cc5f30c.webp') no-repeat;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 4rem 0;
+    }
+
+    .about-content {
+        width: 65%;
+        max-width: 1024px;
+        padding: 0 0.4rem;
+        color: white;
+    }
+
+    .Tell-Us {
+        font-size: 25px;
+        color: #ec1c24;
+        font-weight: 600;
+    }
+
+    .Request-a-quote {
+        font-size: 17px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #fff;
+        padding: 12px 0;
+        text-align: center;
+    }
+
+    .about-btns {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .call-us-btn {
+        width: 320px;
+        height: 46px;
+        text-align: center;
+        background-color: #fff;
+        color: #ec1c24;
+        border-radius: 12px;
+        font-size: 17px;
+        font-weight: 600;
+        border: 1px solid #fff;
+        transition: background-color 500ms, border 500ms;
+    }
+
+    .call-us-btn:hover {
+        background-color: #000;
+        border: 1px solid #fff;
+    }
+
+    .chat-btn {
+        width: 320px;
+        height: 46px;
+        text-align: center;
+        background-color: #ec1c24;
+        color: #fff;
+        text-align: center;
+        border-radius: 12px;
+        border: 1px solid #ec1c24;
+        font-size: 17px;
+        font-weight: 600;
+        transition: background-color 500ms, color 500ms, border 500ms;
+    }
+
+    .chat-btn:hover {
+        background-color: #000;
+        color: #ec1c24;
+        border: 1px solid #ec1c24;
+    }
+
+    /* About css End  */
+
+}
+
+/* For ipad mini */
+@media screen and (min-width : 576px) and (max-width : 768px) {
+
+    /* Hero css Start */
+
+    .HAVE-AN-btn {
+        padding: 1rem 2rem;
+        background-color: #ec1c24;
+        color: #fff;
+        font-size: 11px;
+        font-weight: 600;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        width: 50%;
+        transition: background-color 1s;
+    }
+
+    .get-a-qoute {
+        background-color: black;
+        color: #fff;
+        font-size: 11px;
+        font-weight: 600;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        width: 50%;
+        transition: background-color 1s;
+        overflow: hidden;
+    }
+
+    /* Hero css End */
+
+    /* cardcarousel css start */
+
+    .One-Stop {
+        font-size: 24px;
+        font-weight: 700;
+        color: #ec1c24;
+    }
+
+    .Development-Process {
+        font-size: 22px;
+        font-weight: 700;
+        color: #ec1c24;
+    }
+
+    .What-Custom {
+        font-size: 22px;
+        font-weight: 700;
+        color: #ec1c24;
+    }
+
+    .Our {
+        font-size: 26px;
+        font-weight: 600;
+        color: #000;
+    }
+
+    .Our-Proficient {
+        font-size: 20px;
+        font-weight: 600;
+        color: #000;
+        padding-bottom: 20px;
+    }
+
+    .front-card-heading {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 700;
+        padding-right: 1rem;
+    }
+
+    .carousel-card-container {
+        width: 350px;
+        height: 320px;
+    }
+
+    .front-card-heading {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 700;
+        padding-right: 3rem;
+    }
+
+    /* cardcarousel css end */
+
+
+    /* usa css start */
+
+
+    .usa-container {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 1rem 0;
+    }
+
+    .usa-text-card {
+        width: 80%;
+    }
+
+    .With-people-p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .READ-MORE {
+        width: 40%;
+        padding: 1rem 0;
+        border-radius: 10px;
+        background-color: #ec1c24;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+        border: 1px solid #ec1c24;
+        transition: background-color 500ms;
+    }
+
+
+    /* usa css end */
+
+    /* Case study css Start */
+    .carousel-text-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        text-align: left;
+        gap: 2.5rem;
+    }
+
+    .bitox-img {
+        max-width: 100%;
+        width: 30%;
+        height: auto;
+    }
+
+    .Bitbox {
+        font-size: 16px;
+        color: #fff;
+        line-height: 25px;
+    }
+
+    /* Case study css End */
+    /* Process  */
+
+    .procces-text-con {
+        display: none;
+    }
+
+
+    /* Procss  css start */
+
+    .procces-text-con {
+        display: none;
+    }
+
+    .process-for-small-con {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0 3rem;
+    }
+
+
+    .process-for-small-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .process-second-small-img img {
+        width: 250px;
+        height: 200px;
+    }
+
+
+    .process-card-small-img {
+        padding: 20px 22px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 45px;
+        background-color: #ec1c24;
+        border-radius: 50%;
+        margin-bottom: 10px;
+
+    }
+
+    .process-small-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .process-small-card-con {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 3rem;
+    }
+
+    .process-small-card {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+    }
+
+    .we-build-small-p {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 24px;
+        padding-top: 5px;
+
+    }
+
+    /* Procss  css End */
+
+
+    /* About css Start  */
+
+    .about-container {
+        background: url('https://www.appverticals.com/_next/static/media/cta-bg.3cc5f30c.webp') no-repeat;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 4rem 0;
+    }
+
+    .about-content {
+        width: 100%;
+        max-width: 1024px;
+        padding: 0 2rem;
+        color: white;
+    }
+
+    .Tell-Us {
+        font-size: 25px;
+        color: #ec1c24;
+        font-weight: 600;
+    }
+
+    .Request-a-quote {
+        font-size: 17px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #fff;
+        padding: 12px 0;
+        text-align: center;
+    }
+
+    .about-btns {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .call-us-btn {
+        width: 100%;
+        height: 46px;
+        text-align: center;
+        background-color: #fff;
+        color: #ec1c24;
+        border-radius: 12px;
+        font-size: 17px;
+        font-weight: 600;
+        border: 1px solid #fff;
+        transition: background-color 500ms, border 500ms;
+    }
+
+    .call-us-btn:hover {
+        background-color: #000;
+        border: 1px solid #fff;
+    }
+
+    .chat-btn {
+        width: 100%;
+        height: 46px;
+        text-align: center;
+        background-color: #ec1c24;
+        color: #fff;
+        text-align: center;
+        border-radius: 12px;
+        border: 1px solid #ec1c24;
+        font-size: 17px;
+        font-weight: 600;
+        transition: background-color 500ms, color 500ms, border 500ms;
+    }
+
+    .chat-btn:hover {
+        background-color: #000;
+        color: #ec1c24;
+        border: 1px solid #ec1c24;
+    }
+
+    /* About css End  */
+
+
+
+
+}
+
+/* For Mobile */
+@media screen and (max-width : 575px) {
+
+    /*Header css start  */
+    .mob-items-sidebar {
+        width: 100%;
+    }
+
+    /*Header css start  */
+
+    .hero-text-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 0 0.5rem;
+    }
+
+    .hero-btns {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+
+    .HAVE-AN-btn {
+        padding: 0.8rem 2rem;
+        background-color: #ec1c24;
+        color: #fff;
+        font-size: 11px;
+        font-weight: 600;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        width: 100%;
+        transition: background-color 1s;
+    }
+
+    .get-a-qoute {
+        padding: 0.8rem 2rem;
+        background-color: black;
+        color: #fff;
+        font-size: 11px;
+        font-weight: 600;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        width: 100%;
+        transition: background-color 1s;
+    }
+
+
+    .Perfect-Blend {
+        font-size: 23px;
+        font-weight: 500;
+        color: #ec1c24;
+    }
+
+    .App-Development-text {
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 700;
+    }
+
+    /* Header css End */
+
+    /* cardcarousel css start */
+    .cards-container {
+        height: 100%;
+        margin-top: 2rem;
+        align-items: center;
+        width: 100%;
+        padding: 0 0 40px;
+        background-color: #ffffff;
+    }
+
+    .cards-text {
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    .One-Stop {
+        font-size: 22px;
+        font-weight: 700;
+        color: #ec1c24;
+        padding-bottom: 0.7rem;
+    }
+
+    .Development-Process {
+        font-size: 20px;
+        font-weight: 700;
+        color: #ec1c24;
+    }
+
+    .Our {
+        font-size: 22px;
+        font-weight: 600;
+        color: #000;
+    }
+
+    .Our-Proficient {
+        font-size: 20px;
+        font-weight: 600;
+        color: #000;
+        padding-bottom: 15px;
+    }
+
+    .front-card-heading {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 700;
+        padding-right: 1rem;
+    }
+
+    .carousel-card-container {
+        width: 350px;
+        height: 320px;
+    }
+
+    .front-card-heading {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 700;
+        padding-right: 3rem;
+    }
+
+    /* cardcarousel css end */
+
+    /* usa css start */
+
+
+    .usa-container {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 1rem 0;
+    }
+
+    .usa-text-card {
+        width: 100%;
+    }
+
+    .With-people-p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .We-are-one {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .READ-MORE {
+        width: 100%;
+        padding: 1rem 0;
+        border-radius: 10px;
+        background-color: #ec1c24;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+        border: 1px solid #ec1c24;
+        transition: background-color 500ms;
+    }
+
+    .What-Custom {
+        font-size: 18px;
+        font-weight: 700;
+        color: #ec1c24;
+    }
+
+    /* usa css end */
+
+
+    /* Case study css Start */
+    .carousel-text-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        text-align: left;
+        gap: 1.5rem;
+    }
+
+    .bitox-img {
+        max-width: 100%;
+        width: 40%;
+        height: auto;
+    }
+
+    .Bitbox {
+        font-size: 14px;
+        color: #fff;
+        line-height: 25px;
+    }
+
+    /* Case study css End */
+    /* process */
+
+    .procces-text-con {
+        display: none;
+    }
+
+    /* Procss  css start */
+
+    .procces-text-con {
+        display: none;
+    }
+
+    .process-for-small-con {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+
+    .process-for-small-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .process-second-small-img img {
+        width: 260px;
+        height: 230px;
+    }
+
+
+    .process-card-small-img {
+        padding: 20px 22px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 45px;
+        background-color: #ec1c24;
+        border-radius: 50%;
+        margin-bottom: 10px;
+
+    }
+
+    .process-small-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .process-small-card-con {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .process-small-card {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .we-build-small-p {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 24px;
+        padding-top: 5px;
+
+
+    }
+
+    /* Procss  css End */
+ 
+    
+    /* About css Start  */
+
+    .about-container {
+        background: url('https://www.appverticals.com/_next/static/media/cta-bg.3cc5f30c.webp') no-repeat;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 4rem 0;
+    }
+
+    .about-content {
+        width: 100%;
+        max-width: 1024px;
+        padding: 0 0.6rem;
+        color: white;
+    }
+
+    .Tell-Us {
+        font-size: 25px;
+        color: #ec1c24;
+        font-weight: 600;
+    }
+
+    .Request-a-quote {
+        font-size: 15px;
+        line-height: 21px;
+        font-weight: 700;
+        color: #fff;
+        padding: 12px 0;
+        text-align: center;
+    }
+
+    .about-btns {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .call-us-btn {
+        width: 100%;
+        height: 46px;
+        text-align: center;
+        background-color: #fff;
+        color: #ec1c24;
+        border-radius: 12px;
+        font-size: 14px;
+        font-weight: 600;
+        border: 1px solid #ec1c24;
+        transition: background-color 500ms, border 500ms;
+    }
+
+    .call-us-btn:hover {
+        background-color: #000;
+        border: 1px solid #fff;
+    }
+
+    .chat-btn {
+        width: 100%;
+        height: 46px;
+        text-align: center;
+        background-color: #ec1c24;
+        color: #fff;
+        text-align: center;
+        border-radius: 12px;
+        border: 1px solid #fff;
+        font-size: 14px;
+        font-weight: 600;
+        transition: background-color 500ms, color 500ms, border 500ms;
+    }
+
+    .chat-btn:hover {
+        background-color: #000;
+        color: #ec1c24;
+        border: 1px solid #ec1c24;
+    }
+
+    /* About css End  */
+
+ 
+
+
+
+}
+
+@media screen and (max-width : 991px) {
+    .nav-items-none {
+        display: none;
+    }
+
+    .toggle-btn {
+        margin-right: 1rem;
+    }
+
+    .mob-items-container {
+        display: flex;
+        justify-content: end;
+    }
+
+
+
+
+
+
+    .sidebar-item-con {
+        list-style: none;
+
+    }
+
+    .sidebar-items {
+        padding: 1rem 10px;
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        border-bottom: 1px solid;
+        text-decoration: none;
+
+    }
+
+    .sidebar-item-link {
+        font-size: 12px;
+        letter-spacing: 0.1rem;
+        text-decoration: none;
+        color: #303331;
+    }
+
+    .sidebar-items-container {
+        padding: 1rem 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid;
+        text-decoration: none;
+    }
+
+    .sidebar-items-dropdwon {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+    }
+
+    .mob-solution-sidebar {
+        padding: 1rem;
+
+        border-bottom: 1px solid #303331;
+    }
+
+    .mob-dropdown-link {
+        font-size: 12px;
+        letter-spacing: 0.1rem;
+        text-decoration: none;
+        color: #303331;
+        padding-left: 0.5rem;
+        width: 100%;
+    }
+
+    /* Hero css start */
+    .top-notch-text {
+        font-size: 58px;
+        line-height: 65px;
+    }
+
+    /* Hero css End */
+
+}
+
+
+
+
+@media screen and (min-width : 992px) {
+    .nav-items-none-des {
+        display: none;
+    }
+
+}
+
+/* For proces section */
+@media screen and (max-width : 1199px){
+/* Industries css start  */
+
+.industry-sec {
+    background: transparent linear-gradient(179deg, #fef1f1, rgba(222, 252, 251, .32) 51%, hsla(0, 60%, 99%, .008) 96%, hsla(0, 100%, 99%, 0));
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    padding: 5rem 0;
+}
+
+.industry-content {
+    width: 90%;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+
+.industry-img-con{
+    width: 50%;
+}
+
+.industry-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    gap: 1.5rem;
+    padding: 0 5rem;
+}
+
+
+
+.industry-img {
+    height: 550px;
+    width:100%;
+}
+
+.industry-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    gap: 1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.industry-card-img-new {
+    width: 100px;
+    height: 90px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .161);
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    transition: background-color 500ms ;
+}
+
+.industry-card-img-new:hover {
+    background-color: #ec1c24;
+}
+
+
+.industry-card-img-new img {
+    height: 50px;
+}
+
+.industry-card-img-new img:hover {
+    filter: grayscale(1) invert(1);
+}
+
+/* Industries css End  */
+}
+

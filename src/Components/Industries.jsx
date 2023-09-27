@@ -35,7 +35,7 @@ function Industries() {
                                         </div>
                                         <div className='industry-card-text'>
                                             <h6 className='we-build'>{item.name}</h6>
-                                            <p className='we-build-p'>{item.des}</p>
+                                            <p className='industry-p'>{item.des}</p>
                                         </div>
                                     </div>
                                 )

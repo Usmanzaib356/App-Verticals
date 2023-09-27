@@ -383,6 +383,13 @@
 
     /* process css End  */
 
+    .industry-p {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+
 }
 
 /* For ipad pro */
@@ -1277,8 +1284,8 @@
     }
 
     /* Procss  css End */
- 
-    
+
+
     /* About css Start  */
 
     .about-container {
@@ -1363,7 +1370,7 @@
 
     /* About css End  */
 
- 
+
 
 
 
@@ -1460,92 +1467,93 @@
 
 }
 
+
 /* For proces section */
-@media screen and (max-width : 1199px){
-/* Industries css start  */
+@media screen and (max-width : 1199px) {
+    /* Industries css start */
 
-.industry-sec {
-    background: transparent linear-gradient(179deg, #fef1f1, rgba(222, 252, 251, .32) 51%, hsla(0, 60%, 99%, .008) 96%, hsla(0, 100%, 99%, 0));
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 3rem;
-    padding: 5rem 0;
+    .industry-sec {
+        background: transparent linear-gradient(179deg, #fef1f1, rgba(222, 252, 251, .32) 51%, hsla(0, 60%, 99%, .008) 96%, hsla(0, 100%, 99%, 0));
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 3rem;
+        padding: 5rem 0;
+    }
+
+    .industry-content {
+        width: 90%;
+        padding: 0 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+    }
+
+
+    .industry-img-con {
+        width: 70%;
+    }
+
+    .industry-cards-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 1.5rem;
+    }
+
+
+    .industry-img {
+        height: 400px;
+        width: 100%;
+    }
+
+    .industry-card {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        text-align: start;
+        gap: 1rem;
+        cursor: pointer;
+    }
+
+    .industry-card-img-new {
+        width: 100px;
+        height: 90px;
+        background-color: #fff;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, .161);
+        border-radius: 10px;
+        align-items: center;
+        display: flex;
+        flex-shrink: 0;
+        justify-content: center;
+        transition: background-color 500ms;
+    }
+
+    .industry-card-img-new:hover {
+        background-color: #ec1c24;
+    }
+
+
+    .industry-card-img-new img {
+        height: 50px;
+    }
+
+    .industry-card-img-new img:hover {
+        filter: grayscale(1) invert(1);
+    }
+
+    .industry-p {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    /* Industries css End  */
 }
-
-.industry-content {
-    width: 90%;
-    padding: 0 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-
-}
-
-
-.industry-img-con{
-    width: 50%;
-}
-
-.industry-cards-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 80%;
-    gap: 1.5rem;
-    padding: 0 5rem;
-}
-
-
-
-.industry-img {
-    height: 550px;
-    width:100%;
-}
-
-.industry-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: start;
-    gap: 1rem;
-    cursor: pointer;
-    width: 100%;
-}
-
-.industry-card-img-new {
-    width: 100px;
-    height: 90px;
-    background-color: #fff;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, .161);
-    border-radius: 10px;
-    align-items: center;
-    display: flex;
-    flex-shrink: 0;
-    justify-content: center;
-    transition: background-color 500ms ;
-}
-
-.industry-card-img-new:hover {
-    background-color: #ec1c24;
-}
-
-
-.industry-card-img-new img {
-    height: 50px;
-}
-
-.industry-card-img-new img:hover {
-    filter: grayscale(1) invert(1);
-}
-
-/* Industries css End  */
-}
-

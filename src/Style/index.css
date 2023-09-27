@@ -1010,7 +1010,7 @@ body {
 
 
 .industry-img-con{
-    width: 50%;
+    width: 60%;
 }
 
 .industry-cards-container {
@@ -1024,6 +1024,7 @@ body {
 
 .industry-img {
     height: 550px;
+    max-width: 700px;
     width:100%;
 }
 
@@ -1061,5 +1062,18 @@ body {
     filter: grayscale(1) invert(1);
 }
 
+.industry-p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+}
 
 /* Industries css End  */
+
+/* Customer css Start  */
+
+.customer-container{
+     
+}
+
+/* Customer css End  */

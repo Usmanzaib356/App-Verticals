@@ -389,6 +389,8 @@ body {
     gap: 2rem;
     align-items: center;
     width: 70%;
+    max-width: 768px;
+    overflow-x: scroll;
 
 }
 
@@ -1009,7 +1011,7 @@ body {
 }
 
 
-.industry-img-con{
+.industry-img-con {
     width: 60%;
 }
 
@@ -1025,7 +1027,7 @@ body {
 .industry-img {
     height: 550px;
     max-width: 700px;
-    width:100%;
+    width: 100%;
 }
 
 .industry-card {
@@ -1046,7 +1048,7 @@ body {
     display: flex;
     flex-shrink: 0;
     justify-content: center;
-    transition: background-color 500ms ;
+    transition: background-color 500ms;
 }
 
 .industry-card-img-new:hover {
@@ -1062,7 +1064,7 @@ body {
     filter: grayscale(1) invert(1);
 }
 
-.industry-p{
+.industry-p {
     font-size: 15px;
     font-weight: 500;
     line-height: 24px;
@@ -1072,8 +1074,498 @@ body {
 
 /* Customer css Start  */
 
-.customer-container{
-     
+.customer-container {
+    background: url("https://www.appverticals.com/_next/static/media/background.816865a3.webp") no-repeat;
+    width: 100%;
+    position: relative;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.customer-heading {
+    width: 80%;
+}
+
+.Customer {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ec1c24;
+    padding-bottom: 2px;
+}
+
+.Testimonials {
+    font-size: 35px;
+    font-weight: 700;
+    color: #000;
+}
+
+.customer-card-con {
+    margin-top: 2rem;
+    width: 1366px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.customer-card {
+    width: 440px;
+    background-color: #fff;
+    align-items: center;
+    padding: 40px;
+    border-radius: 28px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .161);
+    border: 1px solid black;
+}
+
+.Works-Efficiently {
+    color: #ec1c24;
+    font-size: 21px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.Works-Efficiently-p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #000;
+    max-height: 70px;
+    overflow-y: auto;
+    padding-bottom: 5px;
+}
+
+.Works-Efficiently-p::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 50px;
+    background-color: rgb(187, 178, 178);
+}
+
+.Works-Efficiently-p::-webkit-scrollbar-thumb {
+    background-color: #ec1c24;
+    border-radius: 50px;
+}
+
+.customer-card-logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 8px;
+}
+
+.customer-card-logo-img {
+    width: 29px;
+    height: 29px;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.customer-card-last {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.customer-card-img {
+    width: 40px;
+    height: 40px;
+}
+
+.customer-card-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.abc {
+    margin-left: 100px;
 }
 
 /* Customer css End  */
+
+/* Form css Start  */
+
+.form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(236, 28, 36, .039);
+    padding: 50px 0;
+}
+
+.form-content-contaiiner {
+    width: 90%;
+    max-width: 1366px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form-left-content {
+    width: 50%;
+
+}
+
+
+.amazing-business {
+    font-size: 35px;
+    line-height: 40px;
+    width: 90%;
+}
+
+
+.amazing-business-red {
+    color: #ec1c24;
+}
+
+
+.azmazing-emails {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+
+.Email-conts {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+
+.Email-cont {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+
+}
+
+.email-text {
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.form-right-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.Got-a-startup {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.Lets-get-started {
+    width: 90%;
+    height: 100%;
+    color: #fff;
+    padding: 15px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid #ec1c24;
+    background-color: #ec1c24;
+    transition: background-color 500ms;
+}
+
+.Lets-get-started:hover {
+    background-color: #000;
+}
+
+.form-con {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form-first-in {
+    display: flex;
+    gap: 1rem;
+}
+
+.first-in {
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 1rem 0;
+    width: 100%;
+    font-weight: 400;
+}
+
+.second-in {
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 1rem 0;
+    width: 20%;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+}
+
+.third-in {
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 1rem 0;
+    width: 70%;
+    font-weight: 400;
+}
+
+.second-input {
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 1rem 0;
+    width: 100%;
+    font-weight: 400;
+}
+
+
+.third-input {
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 1rem 0;
+    width: 100%;
+    font-weight: 400;
+}
+
+.My-Budget {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.less {
+    color: #ec1c24;
+}
+
+.range {
+    margin-top: 2rem;
+}
+
+.slider {
+    -webkit-appearance: none;
+    /* Override default CSS styles */
+    appearance: none;
+    width: 100%;
+    /* Full-width */
+    height: 25px;
+    /* Specified height */
+    background: #d3d3d3;
+    /* Grey background */
+    outline: none;
+    /* Remove outline */
+    opacity: 0.7;
+    /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s;
+    /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1;
+    /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Override default look */
+    appearance: none;
+    width: 25px;
+    /* Set a specific slider handle width */
+    height: 25px;
+    /* Slider handle height */
+    background: #04AA6D;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    /* Set a specific slider handle width */
+    height: 25px;
+    /* Slider handle height */
+    background: #04AA6D;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
+}
+
+
+.range-con {
+    margin-top: 2rem;
+    width: 100%;
+
+}
+
+.range {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    background-color: #303331;
+    cursor: pointer;
+    
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    background: #ec1c24; 
+    cursor: pointer;
+  }
+  
+  .range::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #303331; 
+    cursor: pointer;
+  }
+
+
+
+/* Form css End */
+
+/* Footer css start */
+
+.footer-section{
+    width: 100%;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.Technologies{
+    font-size: 22px;
+    font-weight: 700;
+    color: #ec1c24;
+}
+
+.Technologies-con{
+    width: 60%;
+}
+
+.Core-con{
+    width: 60%;
+}
+
+.Hire-con{
+   width: 100%;
+}
+
+.Technologies-line{
+    width: 80px;
+    border-bottom: 3px solid #ec1c24;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.Technologies-list-con{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.Technologies-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.text-decoration{
+    text-decoration: none;
+    font-size: 15px;
+    color: #231f20;
+    transition: color 500ms;
+}
+
+.text-decoration:hover{
+
+     color: #ec1c24;
+}
+
+.footer-two-con{
+    width: 80%;
+    margin-top: 3rem; 
+}
+
+.footer-two{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+
+
+.footer-two-img{
+    width: 100%;
+    height: auto;
+}
+
+.Our-strength{
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.footer-two-last{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 2rem;
+}
+
+.footer-two-last-links{
+    display: flex;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.Privacy-Policy{
+  font-size: 13px;
+}
+
+.Privacy-Policy:hover{
+    color: #ec1c24;
+}
+
+/* Footer css End */

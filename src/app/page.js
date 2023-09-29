@@ -2,6 +2,9 @@
 import About from '@/Components/About'
 import CarouselCards from '@/Components/CarouselCards'
 import CaseStudy from '@/Components/CaseStudy'
+import Customer from '@/Components/Customer'
+import Footer from '@/Components/Footer'
+import Form from '@/Components/Form'
 import Hero from '@/Components/Hero'
 import Industries from '@/Components/Industries'
 import Process from '@/Components/Process'
@@ -17,6 +20,9 @@ function page() {
      <Process/>
      <About/>
      <Industries/>
+     {/* <Customer/> */}
+     <Form/>
+     <Footer/>
     </>
   )
 }

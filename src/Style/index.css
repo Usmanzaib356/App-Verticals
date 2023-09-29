@@ -342,6 +342,7 @@ body {
     border: 1px solid transparent;
     border-radius: 10px;
     width: 300px;
+    cursor: pointer;
     transition: background-color 1s;
 }
 
@@ -360,6 +361,7 @@ body {
     width: 300px;
     transition: background-color 1s;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .get-a-qoute:hover {
@@ -652,6 +654,7 @@ body {
     font-size: 15px;
     font-weight: 700;
     border: 1px solid #ec1c24;
+    cursor: pointer;
     transition: background-color 500ms;
 }
 
@@ -955,6 +958,7 @@ body {
     font-size: 17px;
     font-weight: 600;
     border: 1px solid #fff;
+    cursor: pointer;
     transition: background-color 500ms, border 500ms;
 }
 
@@ -974,6 +978,7 @@ body {
     border: 1px solid #ec1c24;
     font-size: 17px;
     font-weight: 600;
+    cursor: pointer;
     transition: background-color 500ms, color 500ms, border 500ms;
 }
 

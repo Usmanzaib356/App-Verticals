@@ -391,7 +391,7 @@ body {
     gap: 2rem;
     align-items: center;
     width: 70%;
-    max-width: 768px;
+    max-width: 1024px;
     overflow-x: scroll;
 
 }
@@ -1473,7 +1473,7 @@ body {
 .footer-container{
     width: 80%;
     display: flex;
-    justify-content: center;
+    max-width: 1366px;
     gap: 1rem;
     
 }

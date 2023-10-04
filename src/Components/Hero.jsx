@@ -27,7 +27,7 @@ function Hero() {
 
         </div>
         <div className='hero-images-container'>
-          <div className='hero-images-card' >
+          {/* <div className='hero-images-card' >
             <div >
               <img className='hero-img' src='https://www.appverticals.com/_next/image?url=%2Fnext%2Fhome%2Fbanner%2F01.webp&w=256&q=75' alt='image' />
             </div>
@@ -43,7 +43,7 @@ function Hero() {
             <div >
               <img className='hero-img' src='https://www.appverticals.com/_next/image?url=%2Fnext%2Fhome%2Fbanner%2F05.webp&w=256&q=75' alt='image' />
             </div>
-          </div>
+          </div> */}
         </div>
 
       </div>

@@ -1,9 +1,8 @@
-
-import '../Style/index.css'
 import Header from '@/Components/Header'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { Inter } from 'next/font/google'
+import '../Style/index.css'
 import '../Style/media.css'
 const inter = Inter({ subsets: ['latin'] })
 
